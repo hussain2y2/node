@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de791306-24d1-404b-85bc-bab5de2e25e6" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/css/modules/_feature-item.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/css/modules/_icon.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/assets/css/modules/_section-title.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/modules/_generic-content-container.css" afterPath="$PROJECT_DIR$/app/assets/css/modules/_generic-content-container.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/modules/_row.css" afterPath="$PROJECT_DIR$/app/assets/css/modules/_row.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/styles.css" afterPath="$PROJECT_DIR$/app/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/globe.svg" afterPath="$PROJECT_DIR$/app/assets/img/globe.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/img/star.svg" afterPath="$PROJECT_DIR$/app/assets/img/star.svg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/css/styles.css" afterPath="$PROJECT_DIR$/app/tmp/css/styles.css" />
-    </list>
+    <list default="true" id="de791306-24d1-404b-85bc-bab5de2e25e6" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -234,12 +222,12 @@
       <workItem from="1505458116994" duration="2132000" />
       <workItem from="1505572391014" duration="20602000" />
       <workItem from="1505606914421" duration="8181000" />
-      <workItem from="1505642734343" duration="9575000" />
+      <workItem from="1505642734343" duration="9673000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="40490000" />
+    <option name="totallyTimeSpent" value="40588000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="24" width="1368" height="731" extended-state="6" />
