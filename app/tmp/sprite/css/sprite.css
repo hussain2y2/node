@@ -1,0 +1,36 @@
+    .icon--drop {
+        width:  512px;
+        height: 512px;
+        background-image: ('/tmp/sprite/css/svg/sprite.css-fdd151e6.svg');
+        background-position: 0 0;
+    }
+    .icon--globe {
+        width:  505.17px;
+        height: 505.17px;
+        background-image: ('/tmp/sprite/css/svg/sprite.css-fdd151e6.svg');
+        background-position: 55.30172925915125% 98.68357650868302%;
+    }
+    .icon--rain {
+        width:  512px;
+        height: 512px;
+        background-image: ('/tmp/sprite/css/svg/sprite.css-fdd151e6.svg');
+        background-position: 55.71273122959739% 0;
+    }
+    .icon--star {
+        width:  85.24px;
+        height: 85.24px;
+        background-image: ('/tmp/sprite/css/svg/sprite.css-fdd151e6.svg');
+        background-position: 76.09083343240994% 43.25067109804423%;
+    }
+    .icon--storm {
+        width:  406.02px;
+        height: 406.02px;
+        background-image: ('/tmp/sprite/css/svg/sprite.css-fdd151e6.svg');
+        background-position: 99.90438837830982% 0;
+    }
+    .icon--testimonials {
+        width:  512px;
+        height: 512px;
+        background-image: ('/tmp/sprite/css/svg/sprite.css-fdd151e6.svg');
+        background-position: 0 100%;
+    }
