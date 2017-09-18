@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de791306-24d1-404b-85bc-bab5de2e25e6" name="Default" comment="">
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/tmp/sprite/css/sprite.css" afterPath="$PROJECT_DIR$/app/assets/css/modules/_sprite.css" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/tmp/sprite/css/svg/sprite.css-fdd151e6.svg" afterPath="$PROJECT_DIR$/app/assets/img/sprites/sprite-fdd151e6.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/styles.css" afterPath="$PROJECT_DIR$/app/assets/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/tmp/css/styles.css" afterPath="$PROJECT_DIR$/app/tmp/css/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/tasks/sprite.js" afterPath="$PROJECT_DIR$/gulp/tasks/sprite.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gulp/templates/sprite.css" afterPath="$PROJECT_DIR$/gulp/templates/sprite.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package-lock.json" afterPath="$PROJECT_DIR$/package-lock.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,27 +13,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="sprite.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulp/tasks/sprite.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sprite.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/gulp/templates/sprite.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="304">
@@ -164,18 +135,21 @@
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tmp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="app" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="assets" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="modules" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
               <item name="node" type="b2602c69:ProjectViewProjectNode" />
               <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="node" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="gulp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
@@ -229,12 +203,12 @@
       <workItem from="1505642734343" duration="9673000" />
       <workItem from="1505669678432" duration="196000" />
       <workItem from="1505669985631" duration="11975000" />
-      <workItem from="1505759345470" duration="4914000" />
+      <workItem from="1505759345470" duration="5189000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51309000" />
+    <option name="totallyTimeSpent" value="51584000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="24" width="1368" height="731" extended-state="6" />
@@ -617,21 +591,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
-          <folding>
-            <element signature="e#8694#8701#0" expanded="true" />
-            <element signature="e#9123#9130#0" expanded="true" />
-            <element signature="e#9649#9656#0" expanded="true" />
-            <element signature="e#9926#9933#0" expanded="true" />
-            <element signature="e#10469#10476#0" expanded="true" />
-            <element signature="e#10898#10905#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/del/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -650,19 +609,34 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/tasks/sprite.js">
+    <entry file="file://$PROJECT_DIR$/gulp/templates/sprite.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="42" column="0" lean-forward="true" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+        <state relative-caret-position="198">
+          <caret line="11" column="11" lean-forward="false" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gulp/templates/sprite.css">
+    <entry file="file://$PROJECT_DIR$/gulp/tasks/sprite.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="11" lean-forward="true" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
+        <state relative-caret-position="416">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="94" column="16" lean-forward="false" selection-start-line="94" selection-start-column="16" selection-end-line="94" selection-end-column="16" />
+          <folding>
+            <element signature="e#8694#8701#0" expanded="true" />
+            <element signature="e#9123#9130#0" expanded="true" />
+            <element signature="e#9649#9656#0" expanded="true" />
+            <element signature="e#9926#9933#0" expanded="true" />
+            <element signature="e#10469#10476#0" expanded="true" />
+            <element signature="e#10898#10905#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
