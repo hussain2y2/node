@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de791306-24d1-404b-85bc-bab5de2e25e6" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/sprite/css/sprite.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/tmp/sprite/css/svg/sprite.css-fdd151e6.svg" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/tmp/sprite/css/sprite.css" afterPath="$PROJECT_DIR$/app/assets/css/modules/_sprite.css" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/tmp/sprite/css/svg/sprite.css-fdd151e6.svg" afterPath="$PROJECT_DIR$/app/assets/img/sprites/sprite-fdd151e6.svg" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/assets/css/styles.css" afterPath="$PROJECT_DIR$/app/assets/css/styles.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
@@ -229,12 +229,12 @@
       <workItem from="1505642734343" duration="9673000" />
       <workItem from="1505669678432" duration="196000" />
       <workItem from="1505669985631" duration="11975000" />
-      <workItem from="1505759345470" duration="4689000" />
+      <workItem from="1505759345470" duration="4914000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="51084000" />
+    <option name="totallyTimeSpent" value="51309000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="83" y="24" width="1368" height="731" extended-state="6" />
