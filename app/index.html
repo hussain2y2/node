@@ -29,10 +29,10 @@
                 </div>
                 <nav class="primary-nav primary-nav--pull-right">
                     <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#features">Features</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
+                        <li><a href="#home" id="home-link">Home</a></li>
+                        <li><a href="#features" id="features-link">Features</a></li>
+                        <!--<li><a href="#services">Services</a></li>-->
+                        <li><a href="#testimonials" id="testimonials-link">Testimonials</a></li>
                     </ul>
                 </nav>
             </div>
@@ -57,7 +57,7 @@
         </div>
     </div>
 
-    <div id="home" class="page-section">
+    <div id="home" class="page-section" data-matching-link="#home-link">
         <div class="wrapper">
 
             <h2 class="headline headline--centered headline--light headline--b-margin-small">
@@ -105,7 +105,7 @@
         </div>
     </div>
 
-    <div id="features" class="page-section page-section--blue">
+    <div id="features" class="page-section page-section--blue" data-matching-link="#features-link">
         <div class="wrapper">
             <h2 class="section-title">
                 <span class="icon icon--star section-title--icon"></span>
@@ -154,8 +154,11 @@
             </div>
         </div>
     </div>
-    <div id="services"></div>
-    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials">
+    <!--<div id="services" class="page-section">
+
+    </div> -->
+    <div id="testimonials" class="page-section page-section--no-b-padding-until-large page-section--testimonials"
+         data-matching-link="#testimonials-link">
         <div class="wrapper wrapper--no-padding-until-large">
             <h2 class="section-title section-title--blue">
                 <img src="assets/img/icons/testimonials.svg" class="icon section-title--icon">
