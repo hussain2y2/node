@@ -24,18 +24,19 @@
         background-color: $mainBlue;
          color: #FFF;
     }
-
     &--testimonials {
         background-color: #e0e6ef;
-
         @mixin atMedium {
-            background: url("/assets/img/widget-testimonial-background.jpg") top center no-repeat;
-            background-size: cover;
+            &.lazyload {
+                background: url("/assets/img/widget-testimonial-background.jpg") top center no-repeat;
+                background-size: cover;
+            }
         }
-
         @mixin atLarge {
-            background: url("/assets/img/widget-testimonial-background.jpg") top center no-repeat;
-            background-size: cover;
+            &.lazyload {
+                background: url("/assets/img/widget-testimonial-background.jpg") top center no-repeat;
+                background-size: cover;
+            }
         }
     }
 }

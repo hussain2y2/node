@@ -1,9 +1,12 @@
 var path = require('path');
 module.exports = {
-    entry: "./app/assets/js/App.js",
+    entry: {
+        App: "./app/assets/js/App.js",
+        Vendor: "./app/assets/js/Vendor.js"
+    },
     output: {
         path: path.resolve(__dirname, './app/tmp/js'),
-        filename: "App.js"
+        filename: "[name].js" // To output in different files like input as (App.js & Vendor.js)
     },
     module: {
         loaders: [
