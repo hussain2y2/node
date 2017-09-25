@@ -1,9 +1,15 @@
 var gulp = require('gulp'),
     svgSprite = require('gulp-svg-sprite'),
     rename = require('gulp-rename'),
-    del = require('del');
+    del = require('del'),
+    svg2png = require('gulp-svg2png');
 
 var config = {
+    shape: {
+        spacing: {
+            padding: 1
+        }
+    },
     mode: {
         css: {
             sprite: 'sprite.svg',
@@ -25,6 +31,12 @@ gulp.task('createSprite', ['beginClean'], function () {
         .pipe(svgSprite(config))
         .pipe(gulp.dest('./app/tmp/sprite/'));
 });
+
+/*gulp.task('createPngCopy', ['createSprite'], function () {
+    return gulp.src("./app/tmp/sprite/css/*.svg")
+        .pipe(svg2png())
+        .pipe(gulp.dest("./app/tmp/sprite/css"));
+}); */
 
 gulp.task('copySpriteGraphic', ['createSprite'], function () {
     return gulp.src('./app/tmp/sprite/css/**/*.svg')
