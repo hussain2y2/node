@@ -7,7 +7,7 @@ var gulp = require('gulp'),
     uglify = require('gulp-uglify');
 
 gulp.task('deleteDistFolder', function () {
-    return del("./dist");
+    return del("./docs");
 });
 
 gulp.task('optimizeImages', ['deleteDistFolder', 'styles', 'scripts'], function () {
@@ -17,7 +17,7 @@ gulp.task('optimizeImages', ['deleteDistFolder', 'styles', 'scripts'], function 
             interlaced: true, // For GIF images
             multipass: true // For SVG images
         }))
-        .pipe(gulp.dest('./dist/assets/img'));
+        .pipe(gulp.dest('./docs/assets/img'));
 });
 
 gulp.task('usemin', ['deleteDistFolder'], function () {
@@ -26,6 +26,6 @@ gulp.task('usemin', ['deleteDistFolder'], function () {
             css: [function () { return rev() }, function () { return cssnano() }],
             js: [function () {return rev() }, function () { return uglify() }]
         }))
-        .pipe(gulp.dest('./dist'));
+        .pipe(gulp.dest('./docs'));
 });
 gulp.task('build', ['deleteDistFolder', 'optimizeImages', 'usemin']);
